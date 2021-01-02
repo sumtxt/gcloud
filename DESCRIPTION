@@ -1,0 +1,20 @@
+Package: gcloud
+Title: Simple functions to access Google Cloud Platform API via R
+Version: 0.0.1
+Author: Moritz Marbach <moritz.marbach@gess.ethz.ch> [aut, cre]
+Maintainer: Moritz Marbach <moritz.marbach@gess.ethz.ch>
+Description: Use Google API to geolocate and translate.
+License: GPL-3
+Encoding: UTF-8
+BugReports: https://github.com/sumtxt/gcloud/issues
+URL: https://github.com/sumtxt/gcloud
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    purrr,
+    rlang,
+    httr,
+    tibble
+Depends: 
+    R (>= 2.10)
